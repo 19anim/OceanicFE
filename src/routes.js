@@ -24,6 +24,9 @@ import TableList from "views/Tables.js";
 import Maps from "views/Map.js";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
+import PlaceOrder from "./views/PlaceOrder";
+import ViewResult from "./views/ViewResult";
+
 import Homepage from "views/Homepage";
 import RoutesList from "views/RoutesList";
 import Guidelines from "views/Guidelines";
@@ -44,12 +47,30 @@ var routes = [
     layout: "/admin",
   },
   {
-    path: "/homepage",
-    name: "Booking",
-    icon: "nc-icon nc-map-big",
-    component: Homepage,
+
+    path: "/placeorder",
+    name: "Place Order",
+    icon: "nc-icon nc-spaceship",
+    component: PlaceOrder,
     layout: "/admin",
+      invisible: true
   },
+    {
+        path: "/homepage",
+        name: "Booking",
+        icon: "nc-icon nc-map-big",
+        component: Homepage,
+        layout: "/admin",
+    },
+    {
+
+        path: "/viewresult",
+        name: "View detail",
+        icon: "nc-icon nc-spaceship",
+        component: ViewResult,
+        layout: "/admin",
+        invisible: true
+    },
   {
     path: "/guideline",
     name: "Guidelines",
