@@ -30,6 +30,7 @@ function Sidebar(props) {
   const sidebar = React.useRef();
   // verifies if routeName is the one active (in browser input)
   const activeRoute = (routeName) => {
+
     return props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
   };
   React.useEffect(() => {
@@ -64,12 +65,13 @@ function Sidebar(props) {
           href="https://www.creative-tim.com"
           className="simple-text logo-normal"
         >
-          Creative Tim
+          Oceanic
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>
         <Nav>
           {props.routes.map((prop, key) => {
+            if(prop.invisible) return null;
             return (
               <li
                 className={
