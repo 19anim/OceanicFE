@@ -55,18 +55,11 @@ function Sidebar(props) {
       <div className="logo">
         <a
           href="https://www.creative-tim.com"
-          className="simple-text logo-mini"
-        >
-          <div className="logo-img">
-            <img src={logo} alt="react-logo" />
-          </div>
-        </a>
-        <a
-          href="https://www.creative-tim.com"
           className="simple-text logo-normal"
         >
-          Oceanic
+          Oceanic Airlines
         </a>
+
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>
         <Nav>

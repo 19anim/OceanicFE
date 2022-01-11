@@ -60,7 +60,7 @@ function PlaceOrder() {
                                         <td className="text-right">$36,738</td>
 
 
-                                            {/*<td className="text-right">$36,738</td>*/}
+                                          
                                     </tr>
                                     </tbody>
                                 </Table>

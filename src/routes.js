@@ -27,18 +27,61 @@ import UpgradeToPro from "views/Upgrade.js";
 import PlaceOrder from "./views/PlaceOrder";
 import ViewResult from "./views/ViewResult";
 
+import Homepage from "views/Homepage";
+import RoutesList from "views/RoutesList";
+import Guidelines from "views/Guidelines";
+import CreateUser from "views/CreateUser";
 var routes = [
-  // {
-  //   path: "/dashboard",
-  //   name: "Dashboard",
-  //   icon: "nc-icon nc-bank",
-  //   component: Dashboard,
-  //   layout: "/admin",
-  // },
+  {
+    path: "/dashboard",
+    name: "Home",
+    icon: "nc-icon nc-bank",
+    component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/createUser",
+    name: "Create User",
+    icon: "nc-icon nc-badge",
+    component: CreateUser,
+    layout: "/admin",
+  },
+  {
+
+    path: "/placeorder",
+    name: "Place Order",
+    icon: "nc-icon nc-spaceship",
+    component: PlaceOrder,
+    layout: "/admin",
+      invisible: true
+  },
+    {
+        path: "/homepage",
+        name: "Booking",
+        icon: "nc-icon nc-map-big",
+        component: Homepage,
+        layout: "/admin",
+    },
+    {
+
+        path: "/viewresult",
+        name: "View detail",
+        icon: "nc-icon nc-spaceship",
+        component: ViewResult,
+        layout: "/admin",
+        invisible: true
+    },
+  {
+    path: "/guideline",
+    name: "Guidelines",
+    icon: "nc-paper nc-bank",
+    component: Guidelines,
+    layout: "/admin",
+  },
   // {
   //   path: "/icons",
   //   name: "Icons",
-  //   icon: "nc-icon nc-diamond",
+  //   icon: "nc-icon nc-badge",
   //   component: Icons,
   //   layout: "/admin",
   // },
@@ -85,45 +128,5 @@ var routes = [
   //   component: UpgradeToPro,
   //   layout: "/admin",
   // },
-  // // {
-  //   pro: true,
-  //   path: "/upgrade",
-  //   name: "Upgrade to PRO",
-  //   icon: "nc-icon nc-spaceship",
-  //   component: UpgradeToPro,
-  //   layout: "/admin",
-  // },
-  {
-
-    path: "/createUser",
-    name: "Create User",
-    icon: "nc-icon nc-bank",
-    layout: "/admin",
-  },
-  {
-    path: "/homepage",
-    name: "Booking",
-    icon: "nc-icon nc-bank",
-    layout: "/admin",
-
-  },
-  {
-
-    path: "/placeorder",
-    name: "Place Order",
-    icon: "nc-icon nc-spaceship",
-    component: PlaceOrder,
-    layout: "/admin",
-    invisible: true
-  },
-  {
-
-    path: "/viewresult",
-    name: "View detail",
-    icon: "nc-icon nc-spaceship",
-    component: ViewResult,
-    layout: "/admin",
-    invisible: true
-  },
 ];
 export default routes;
