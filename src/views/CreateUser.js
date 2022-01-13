@@ -1,6 +1,4 @@
 import React from "react";
-// react plugin used to create charts
-import { Line, Pie } from "react-chartjs-2";
 // reactstrap components
 import {
   Card,
@@ -16,12 +14,6 @@ import {
   Label
 } from "reactstrap";
 // core components
-import {
-  dashboard24HoursPerformanceChart,
-  dashboardEmailStatisticsChart,
-  dashboardNASDAQChart,
-} from "variables/charts.js";
-import RoutesList from "./RoutesList";
 
 function CreateUser() {
   return (

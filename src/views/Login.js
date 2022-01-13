@@ -48,7 +48,7 @@ function Login() {
                         </Row>
                         <Row>
                             <Col className="pr-1" md="12">
-                                <Input type="text" id="password" className="loginfield" name="login" placeholder="password" />
+                                <Input type="password" id="password" className="loginfield" name="login" placeholder="password" />
                             </Col>
                         </Row>
 

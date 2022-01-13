@@ -17,16 +17,8 @@
 
 */
 import Dashboard from "views/Dashboard.js";
-import Notifications from "views/Notifications.js";
-import Icons from "views/Icons.js";
-import Typography from "views/Typography.js";
-import TableList from "views/Tables.js";
-import Maps from "views/Map.js";
-import UserPage from "views/User.js";
-import UpgradeToPro from "views/Upgrade.js";
 import PlaceOrder from "./views/PlaceOrder";
 import ViewResult from "./views/ViewResult";
-
 import Homepage from "views/Homepage";
 import RoutesList from "views/RoutesList";
 import Guidelines from "views/Guidelines";
@@ -129,13 +121,6 @@ var routes = [
   //   name: "Table List",
   //   icon: "nc-icon nc-tile-56",
   //   component: TableList,
-  //   layout: "/admin",
-  // },
-  // {
-  //   path: "/typography",
-  //   name: "Typography",
-  //   icon: "nc-icon nc-caps-small",
-  //   component: Typography,
   //   layout: "/admin",
   // },
   // {
