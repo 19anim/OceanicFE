@@ -83,20 +83,20 @@ function ViewResult() {
                                         <td>Nguyen Lam Van</td>
 
                                     </tr>
-                                    <tr>
-                                        <td style={{fontWeight:"bold"}}>Phone:</td>
-                                        <td>0985900514</td>
+                                    {/*<tr>*/}
+                                    {/*    <td style={{fontWeight:"bold"}}>Phone:</td>*/}
+                                    {/*    <td>0985900514</td>*/}
 
-                                    </tr>
-                                    <tr>
-                                        <td style={{fontWeight:"bold"}}>Address:</td>
-                                        <td> Vung Tau tp Ho Chi Min</td>
+                                    {/*</tr>*/}
+                                    {/*<tr>*/}
+                                    {/*    <td style={{fontWeight:"bold"}}>Address:</td>*/}
+                                    {/*    <td> Vung Tau tp Ho Chi Min</td>*/}
 
-                                    </tr>
-                                    <tr>
-                                        <td style={{fontWeight:"bold"}}>Email:</td>
-                                        <td>van@mail.com</td>
-                                    </tr>
+                                    {/*</tr>*/}
+                                    {/*<tr>*/}
+                                    {/*    <td style={{fontWeight:"bold"}}>Email:</td>*/}
+                                    {/*    <td>van@mail.com</td>*/}
+                                    {/*</tr>*/}
                                     </tbody>
                                 </Table>
                             </CardBody>

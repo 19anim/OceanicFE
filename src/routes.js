@@ -23,6 +23,8 @@ import Homepage from "views/Homepage";
 import RoutesList from "views/RoutesList";
 import Guidelines from "views/Guidelines";
 import CreateUser from "views/CreateUser";
+import UserList from "./views/UserList";
+import Login from "./views/Login";
 var routes = [
   {
     path: "/dashboard",
@@ -37,7 +39,16 @@ var routes = [
     icon: "nc-icon nc-badge",
     component: CreateUser,
     layout: "/admin",
+      invisible: true
   },
+    {
+        path: "/viewuserlist",
+        name: "User List",
+        icon: "nc-icon nc-badge",
+        component: UserList,
+        layout: "/admin",
+
+    },
   {
 
     path: "/placeorder",
@@ -69,7 +80,21 @@ var routes = [
     icon: "nc-paper nc-bank",
     component: Guidelines,
     layout: "/admin",
-  }
+  },
+    {
+        path: "/login",
+        name: "Guidelines",
+        icon: "nc-paper nc-bank",
+        component: Login,
+        layout: "/auth",
+    },
+  // {
+  //   path: "/icons",
+  //   name: "Icons",
+  //   icon: "nc-icon nc-badge",
+  //   component: Icons,
+  //   layout: "/admin",
+  // },
   // {
   //   path: "/maps",
   //   name: "Maps",
