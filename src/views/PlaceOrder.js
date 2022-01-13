@@ -46,6 +46,7 @@ function PlaceOrder() {
                                         <th>From</th>
                                         <th>To</th>
                                         <th>Weight</th>
+                                        <th>Type</th>
                                         <th>Estimate time</th>
                                         <th className="text-right"> Estimate Cost</th>
                                         {/*<th className="text-right">Salary</th>*/}
@@ -56,7 +57,9 @@ function PlaceOrder() {
                                         <td>Dakota Rice</td>
                                         <td>Niger</td>
                                         <td>Less than 3kg</td>
+                                        <td>Weapons</td>
                                         <td>24h</td>
+
                                         <td className="text-right">$36,738</td>
 
 
@@ -89,42 +92,42 @@ function PlaceOrder() {
                                             </FormGroup>
                                         </Col>
                                     </Row>
-                                    <Row>
-                                        <Col className="pr-1" md="12">
-                                            <FormGroup>
-                                                <label>Phone</label>
-                                                <Input
-                                                    defaultValue="michael23"
-                                                    placeholder="Username"
-                                                    type="text"
-                                                />
-                                            </FormGroup>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col className="pr-1" md="12">
-                                            <FormGroup>
-                                                <label>Address</label>
-                                                <Input
-                                                    defaultValue="michael23"
-                                                    placeholder="Username"
-                                                    type="text"
-                                                />
-                                            </FormGroup>
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <Col className="pr-1" md="12">
-                                            <FormGroup>
-                                                <label>Email</label>
-                                                <Input
-                                                    defaultValue="michael23@mail.com"
-                                                    placeholder="Username"
-                                                    type="text"
-                                                />
-                                            </FormGroup>
-                                        </Col>
-                                    </Row>
+                                    {/*<Row>*/}
+                                    {/*    <Col className="pr-1" md="12">*/}
+                                    {/*        <FormGroup>*/}
+                                    {/*            <label>Phone</label>*/}
+                                    {/*            <Input*/}
+                                    {/*                defaultValue="michael23"*/}
+                                    {/*                placeholder="Username"*/}
+                                    {/*                type="text"*/}
+                                    {/*            />*/}
+                                    {/*        </FormGroup>*/}
+                                    {/*    </Col>*/}
+                                    {/*</Row>*/}
+                                    {/*<Row>*/}
+                                    {/*    <Col className="pr-1" md="12">*/}
+                                    {/*        <FormGroup>*/}
+                                    {/*            <label>Address</label>*/}
+                                    {/*            <Input*/}
+                                    {/*                defaultValue="michael23"*/}
+                                    {/*                placeholder="Username"*/}
+                                    {/*                type="text"*/}
+                                    {/*            />*/}
+                                    {/*        </FormGroup>*/}
+                                    {/*    </Col>*/}
+                                    {/*</Row>*/}
+                                    {/*<Row>*/}
+                                    {/*    <Col className="pr-1" md="12">*/}
+                                    {/*        <FormGroup>*/}
+                                    {/*            <label>Email</label>*/}
+                                    {/*            <Input*/}
+                                    {/*                defaultValue="michael23@mail.com"*/}
+                                    {/*                placeholder="Username"*/}
+                                    {/*                type="text"*/}
+                                    {/*            />*/}
+                                    {/*        </FormGroup>*/}
+                                    {/*    </Col>*/}
+                                    {/*</Row>*/}
                                     <Row>
                                         <Col className="pr-1" md="12">
                                             <div>
